@@ -33,4 +33,11 @@ public class TestClass {
 			System.out.println("Test3");
 		});
 	}
+	
+	public void testMethodE() {
+		List<String> l = new ArrayList<>();
+		l.forEach(s -> {
+			System.out.println("Test4");
+		});
+	}
 }
