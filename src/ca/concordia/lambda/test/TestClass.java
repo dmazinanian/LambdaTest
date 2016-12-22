@@ -19,4 +19,11 @@ public class TestClass {
 			System.out.println("Test");
 		});
 	}
+	
+	public void testMethodC() {
+		List<String> l = new ArrayList<>();
+		l.forEach(s -> {
+			System.out.println("Test2");
+		});
+	}
 }
