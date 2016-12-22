@@ -40,4 +40,11 @@ public class TestClass {
 			System.out.println("Test4");
 		});
 	}
+	
+	public void testMethodF() {
+		List<String> l = new ArrayList<>();
+		l.forEach(s -> {
+			System.out.println("Test5");
+		});
+	}
 }
