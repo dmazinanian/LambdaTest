@@ -14,5 +14,9 @@ public class TestClass {
 	
 	public void testMethodB() {
 		Arrays.stream(new Double[]{}).allMatch(value -> value < 10);
+		List<String> l = new ArrayList<>();
+		l.forEach(s -> {
+			System.out.println("Test");
+		});
 	}
 }
