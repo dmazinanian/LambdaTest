@@ -9,7 +9,7 @@ public class TestClass3 {
 	
 	public void testMethod2() {
 		Arrays.asList("Test1", "Test2").replaceAll(s1 -> s1.trim());
-		Arrays.asList("Test1", "Test2").replaceAll(s1 -> s1.trim());
+		Arrays.asList("Test1", "Test2").replaceAll(s2 -> s2.trim());
 	}
 	
 }
