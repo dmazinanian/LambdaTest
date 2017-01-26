@@ -12,4 +12,10 @@ public class TestClass3 {
 		Arrays.asList("Test1", "Test2").replaceAll(s2 -> s2.trim());
 	}
 	
+	public void testMethod3() {
+		Arrays.asList("Test1", "Test2").replaceAll(s1 -> s1.trim());
+		Arrays.asList("Test1", "Test2").replaceAll(s2 -> s2.trim());
+	}
+	
+	
 }
